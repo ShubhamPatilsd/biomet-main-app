@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "biomet"
+version = "0.1.0"
+description = ""
+authors = ["Arpan Pandey <arpanpandey.aps@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+opencv-python = "^4.9.0.80"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
